@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-service = Service(executable_path="../chromedriver_win32/chromedriver.exe")
+service = Service(executable_path="../chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 driver.get("http://www.pbclibrary.org/raton/mousercise.htm")
 
